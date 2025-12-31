@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Side Navigation -->
+  <nav class="side-nav">
+    <ul>
+      <li><a href="mainpage.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="menu">&#9776;</div>
+
+    <div class="profile-area">
+      <span class="profile-name">Amirtha Varshini Sivakumar</span>
+      <div class="profile">
+        <img src="amirtha.jpg" alt="My Photo">
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="content">
+    <section class="home">
+      <h1>Hi, I'm <span>Amirtha Varshini Sivakumar</span></h1>
+      <p>Aspiring Web Developer</p>
+
+      <div class="buttons">
+        <a href="projects.html">
+          <button class="btn primary">View Projects</button>
+        </a>
+
+        <a href="amirtha resume.pdf" target="_blank">
+          <button class="btn outline">Download Resume</button>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Profile Modal -->
+  <div class="profile-modal-overlay">
+
+    <div class="profile-modal">
+      <!-- ❌ Close Button -->
+      <span class="close-btn">&times;</span>
+
+      <img src="amirtha.jpg" alt="Profile">
+
+      <h2>Amirtha Varshini Sivakumar</h2>
+      <p class="role">Aspiring Web Developer</p>
+
+      <p class="intro">
+        I am a student learning web development and building modern,
+        responsive and user-friendly websites.
+      </p>
+
+      <div class="contact">
+        <p>📧 yourmail@gmail.com</p>
+        <p>📞 +91 XXXXXXXX</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
