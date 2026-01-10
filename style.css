@@ -1,6 +1,4 @@
-/* =====================
-   RESET & BASE
-===================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,9 +19,7 @@ img {
   display: block;
 }
 
-/* =====================
-   TOP BAR
-===================== */
+
 .topbar {
   position: fixed;
   top: 0;
@@ -131,9 +127,7 @@ img {
   visibility: visible;
 }
 
-/* =====================
-   MAIN CONTENT
-===================== */
+
 .content {
   padding-top: 100px;
   min-height: calc(100vh - 70px);
@@ -142,9 +136,6 @@ img {
   justify-content: center;
 }
 
-/* =====================
-   HOME SECTION
-===================== */
 .home {
   text-align: center;
   max-width: 700px;
@@ -166,9 +157,6 @@ img {
   margin-bottom: 30px;
 }
 
-/* =====================
-   BUTTONS
-===================== */
 .buttons {
   display: flex;
   justify-content: center;
@@ -206,9 +194,7 @@ img {
   color: #0f172a;
 }
 
-/* =====================
-   PROFILE MODAL
-===================== */
+
 .profile-modal-overlay {
   position: fixed;
   inset: 0;
@@ -270,8 +256,6 @@ img {
   font-size: 14px;
   margin: 6px 0;
 }
-
-/* Close button */
 .close-btn {
   position: absolute;
   top: 14px;
@@ -280,9 +264,6 @@ img {
   cursor: pointer;
 }
 
-/* =====================
-   CERTIFICATIONS
-===================== */
 .certifications {
   max-width: 1000px;
   width: 100%;
@@ -317,9 +298,7 @@ img {
   display: inline-block;
 }
 
-/* =====================
-   PROJECTS
-===================== */
+
 .projects {
   max-width: 900px;
   width: 100%;
@@ -352,9 +331,6 @@ img {
   text-decoration: none;
 }
 
-/* =====================
-   MOBILE
-===================== */
 @media (max-width: 480px) {
   .home h1 {
     font-size: 32px;
@@ -364,3 +340,4 @@ img {
     display: none;
   }
 }
+
